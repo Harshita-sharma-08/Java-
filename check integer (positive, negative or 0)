@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        System.out.print("enter a number:");
+        Scanner sc= new Scanner(System.in);
+        int a = sc.nextInt();
+        
+        if(a>0){
+            System.out.println("Given numer is a positive integer.");
+        }
+        else if(a<0){
+            System.out.println("Given number is a negative integer.");
+        }
+        else{
+            System.out.print("Given number is 0.");
+        }
+    }
+}
